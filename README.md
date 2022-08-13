@@ -6,6 +6,6 @@
 
 **Capabilities**
 
-| Operation | Expected Outcome | Illustration |
+| Name of Operation | Expected Outcome | Illustration |
 | :---: | :---: | :---: |
-| Profiling | 301 | 283 |
+| Profiling | 301 | ![picture](./main/res/example_run_profiling.png) |
