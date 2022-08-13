@@ -6,6 +6,6 @@
 
 **Capabilities**
 
-| Functions | Expected Result | Illustration |
+| Operation | Expected Outcome | Illustration |
 | :---: | :---: | :---: |
 | Profiling | 301 | 283 |
