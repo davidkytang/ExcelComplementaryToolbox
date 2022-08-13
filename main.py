@@ -174,7 +174,7 @@ class MainApp(tk.Tk):
 
         # show record count
         if count >= 0:
-            self.Log.add(setting.alias[command] + ' - Complete ({0:,} rows copied to clipboard).'.format(count))
+            self.Log.add(setting.alias[command] + ' - Complete ({0:,} rows of result copied to clipboard).'.format(count))
         # display popup message upon completion
         if complete >= 0:
             modal = gui.PopUp(self, 'Completed',
