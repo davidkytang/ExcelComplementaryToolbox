@@ -2,8 +2,10 @@
 
 **Introduction**
 
-**Features**
+**Main Screen**
 
-| Operation Name | Prupose | Illustration |
+**Capabilities**
+
+| Functions | Expected Result | Illustration |
 | :---: | :---: | :---: |
 | Profiling | 301 | 283 |
