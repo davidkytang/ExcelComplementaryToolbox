@@ -7,7 +7,7 @@ Main Window
 
 **Capabilities**
 
-| Name of Operation | Outcome | Illustration |
+| Operation | Outcome | Illustration |
 | :---: | :---: | :---: |
 | Profiling | 301 | ![picture](/res/example_run_profiling.png) |
 | Left Join | 301 | ![picture](/res/example_run_join.png) |
