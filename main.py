@@ -19,7 +19,7 @@ class MainApp(tk.Tk):
     def __init__(self):
         super(MainApp, self).__init__()
 
-        # debug mode on/off switch
+        # switch between debug mode
         debugMode = False
 
         # create Image Library
@@ -31,7 +31,7 @@ class MainApp(tk.Tk):
         self.geometry(func.centered_window(self, 970, 630))
         self.resizable(0, 0)
 
-        # supersede default exception handling of tkinter
+        # supersede default exception handler of tkinter
         if not debugMode:
             self.report_callback_exception = self.report_callback_exception_new
 
@@ -237,7 +237,7 @@ class MainApp(tk.Tk):
         if param['commit'] == 1:
             setting.limits.update(param['limit'])
 
-    """ ---------------------- debugging function start ------------------------------ """
+    """ ---------------------- start debugging assistant ------------------------------ """
     def load_test_data(self):
         df1 = pd.read_csv('res/ds_test_a.csv', encoding='utf-8')
         df2 = pd.read_csv('res/ds_test_b.csv', encoding='utf-8')
@@ -254,7 +254,7 @@ class MainApp(tk.Tk):
         txt += self.DataSourceB.df.head(4).to_string() + '\n\n' + self.DataWorkB.df.head(4).to_string() + '\n\n'
         txt += str(self.Option)
         t.configure(text=txt)
-    """ ---------------------- debugging function end ------------------------------ """
+    """ ---------------------- end debugging assistant ------------------------------ """
 
 
 if __name__ == '__main__':
