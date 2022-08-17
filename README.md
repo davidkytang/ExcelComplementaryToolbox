@@ -23,7 +23,7 @@ Main Window
 **File Structure**
 
 | Folder/File | Purpose |
-| :---: | :---: |
+| :---------- | :------ |
 | res\ | image library folder |
 | main.py | the main entry point of this tool |
 | mod*.py | modules consisting of common classes and functions |
