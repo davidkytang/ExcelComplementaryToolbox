@@ -20,3 +20,9 @@ Main Window
 
 **Requirement**
 
+**File Structure**
+| Folder / File | Purpose |
+| :---: | :---: | :---: |
+| res\ | image library folder |
+| main.py | the main program |
+| mod*.py | modules |
