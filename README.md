@@ -21,8 +21,11 @@ Main Window
 **Requirement**
 
 **File Structure**
-| Folder / File | Purpose |
-| :---: | :---: | :---: |
+
+| Folder/File | Purpose |
+| :---: | :---: |
 | res\ | image library folder |
-| main.py | the main program |
-| mod*.py | modules |
+| main.py | the main entry point of this tool |
+| mod*.py | modules consisting of common classes and functions |
+| operation.py | the specific module for all runnable operations |
+| setting.py | the configuration file |
