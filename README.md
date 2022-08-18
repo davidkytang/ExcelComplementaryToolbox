@@ -7,7 +7,7 @@ Main Window
 
 **Capabilities**
 
-| Operation | Outcome | Illustration |
+| Operation | Outcome | <div style="width:400px">Illustration</div> |
 | :---------| :------ | :----------- |
 | Profiling | Calculate basic statistics for every column in the selected dataset. For columns of numeric data type, mean and median are displayed, and the distribution of numeric values are plotted. For text columns, the distribution of top 5 items are displayed | ![picture](/res/example_run_profiling.png) |
 | Left Join | Perform record matching in the same way as SQL left join. Alternatively, user can opt to fetch only the first match, which imitate the behavior of Excel's vlookup/xlookup function | ![picture](/res/example_run_join.png) |
