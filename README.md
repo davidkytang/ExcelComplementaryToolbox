@@ -16,13 +16,17 @@ Main Window
 | Exception | Compare 2 datasets with the exact same layout, find out the records that are exclusive to each other | ![picture](/res/example_run_exception.png) |
 | Connection | Connect related elements into groups. Related elements are represented by records in a 2-column dataset and each column contains one element that is related to the other. This operation scan through the entire dataset linking up all presented relationships by searching for common elements, and then divides the elements into distinctive groups. This is a convenient function for tasks such as identifying reachable nodes on a path, distinguishing groups of associated companies, etc. | ![picture](/res/example_run_connection.png) |
 
+
 **Limitations**
 
+
 **Requirements**
+
 This python tool is designed to run with minimal dependencies, however, it still requires pre-installation of a few standard libraries.
 1. Python 3.8
 2. Pandas library
 3. NumPy library
+
 
 **File Structure**
 
