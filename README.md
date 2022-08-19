@@ -16,6 +16,10 @@ Main Window
 
 
 ## Limitations
+1. It is recommended to remove all formats before copying from a Excel spreadsheet. This is because the clipboard always copies displayed values but not underlying values. This behavior leads to incorrect data type or loss of precision, which may produce unintended results if not carefully inspected. For instance
+2.55 shown as 2.6; 0.901 shown as 90%, 31-Jan-20 shown as 31-Jan, 232,000,000,000 shown as 2.32e+11). If such precision is trival, 
+2. While pasting the output to Excel, padding zero could be lost (e.g. "01" becomes "1") if column type in a worksheet is not formatted as "Text". To work-around, select the entire column in Excel and choose "Format Cells" and choose "Text".
+3. To aviod system instability cause by low memory condition, a limitation on data size (maximum number of rows and columns) has been imposed as a prudent measure to prevent excessive large data from being read into memory. User can adjust the limits by pressing the 'setting' button in the main window. It should be noted that extending the limits beyond capacity could significantly degrade performance (impact varies on individual machines).
 
 
 ## Requirements
