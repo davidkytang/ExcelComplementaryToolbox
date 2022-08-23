@@ -4,8 +4,7 @@ This standalone tool aims to faciliate data manulplations that are usually not i
 This tool works with 2 datasets at a time. The user copies data from spreadsheet and paste it directly through the clipboard, without going through data import process at all. It also works with other tabular data formats, such as a table  (non-image) on a webpage.
 
 ## Screenshot
-It is not complicated to operate this tool in practice. Every functions can be accessed on a streamlined interface. The first step is to copy the source data (including the column header), and then press Ctrl + V on either the left or the right box on the main window. After the data shows up in the box, press one of the the square button to run an operation.
-![picture](/res/screenshot.png)
+It is not complicated to operate this tool in practice. Every functions can be accessed on a streamlined interface. The first step is to copy the source data (including the column header), and then press Ctrl + V on either the left or the right box on the main window. After the data shows up in the box, press one of the the square button to run an operation.![picture](/res/screenshot.png)
 
 ## Capabilities
 This tools offers the following capilities:
