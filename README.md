@@ -4,7 +4,7 @@ This standalone tool aims to faciliate data manulplations that are usually not i
 This tool can work with 2 datasets at a time. The user copies data from a spreadsheet to this tool via the clipboard, without going through manual data import process at all. It can also read other tabular data formats, such as a table (non-image) shown on a webpage.
 
 ## Screenshot
-It is not complicated to operate this tool in practice. Every functions are readily accessible on a user interface with a streamlined design. To start an operation, the first step is to copy the source data (including the column header), and then press Ctrl + V on either the left or the right box on the main window. After the data shows up in the box, press one of the the square button to run an operation.
+It is not complicated to operate this tool in practice. Every functions are readily accessible on a user interface with a streamlined design. To start an operation, the first step is to copy the source data (including the column header), and then press Ctrl + V on either the left or the right dataset container on the main window. After the data shows up in the dataset container, press one of the the square button to run a specific operation.
 
 ![picture](/res/screenshot.png)
 
