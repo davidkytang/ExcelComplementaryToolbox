@@ -2,6 +2,7 @@
 
 ## Screenshot
 Main Window
+(/res/screenshot.png)
 
 ## Capabilities
 
