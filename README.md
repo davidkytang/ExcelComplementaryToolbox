@@ -1,5 +1,5 @@
 ## Introduction
-This standalone tool aims to faciliate data manulplations that are usually not intuitive to average Excel users and often considered troublesome even to more advanced Excel users. Examples include table join and text aggregation, these operations are yet to be fully addressed in basic Excel functions.
+This standalone tool aims to faciliate data manulplations that are usually not intuitive to average Excel users and sometimes considered troublesome even to more advanced Excel users. Examples include table join and text aggregation, these operations are yet to be fully addressed in basic Excel functions.
 
 This tool works with 2 datasets at a time. The user copies data from spreadsheet and paste it directly through the clipboard, without going through data import process at all. It also works with other tabular data formats, such as a table  (non-image) on a webpage.
 
