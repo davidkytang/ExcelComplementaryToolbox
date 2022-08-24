@@ -18,7 +18,7 @@ This tools offers the following capilities:
 | Aggregation | Equivalent to the aggregation functionality in SQL, this operation aggregrates numbers as well as texts | ![picture](/res/example_run_aggregation.png) |
 | Fast Compare | Compare 2 datasets with the exact same layout and calculate the difference for columns selected by the user | ![picture](/res/example_run_compare_value.png) |
 | Exception | Compare 2 datasets with the exact same layout, find out the combinations that are exclusive to each other | ![picture](/res/example_run_exception.png) |
-| Connection | Connect related elements into groups. Related elements are represented by records in a 2-column dataset and each column contains one element that is related to the other. This operation scan through the entire dataset linking up all presented relationships by searching for common elements, and then divides the elements into distinctive groups. This is a convenient function for tasks such as identifying reachable nodes on a path, distinguishing groups of associated companies, etc. | ![picture](/res/example_run_connection.png) |
+| Connection | Connect related elements into groups. Related elements are represented by records in a 2-column dataset and each column contains one element that is related to one another. By searching through the entire dataset, records with common elements will be linked up and form into groups. This is a convenient function for tasks such as identifying connected nodes on a route, distinguishing groups of associated companies, etc. | ![picture](/res/example_run_connection.png) |
 
 
 ## Limitations
