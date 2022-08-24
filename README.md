@@ -31,7 +31,7 @@ This tools offers the following capilities:
     | 31-Jan-21 | 31-Jan |
     | 232,000,000,000 | 2.32e+11 |
 
-2. While pasting the output to Excel, padding zero could be lost (e.g. "01" becomes "1") if column type in a worksheet is not formatted as "Text". To work-around, select the entire column in Excel and choose "Format Cells" and choose "Text".
+2. While pasting the output to Excel, padding zero could be lost (e.g. "01" becomes "1") if cell type in a worksheet is not formatted as "Text". To work-around, select the entire column in Excel, choose "Format Cells" from the menu and then click on "Text".
 3. To aviod system instability cause by low memory condition, a limitation on data size (maximum number of rows and columns) has been imposed as a prudent measure to prevent excessive large data from being read into memory. User can adjust the limits by pressing the 'setting' button in the main window. It should be noted that extending the limits beyond capacity could significantly degrade performance (impact varies on individual machines).
 
 
