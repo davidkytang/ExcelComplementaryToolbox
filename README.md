@@ -22,7 +22,7 @@ This tools offers the following capilities:
 
 
 ## Limitations
-1. It is recommended to remove all formats before copying from a Excel spreadsheet. This is because the clipboard always copies displayed values but not underlying values. This behavior leads to incorrect data type or loss of precision, which may produce unintended results if not carefully inspected. For instance,
+1. It is recommended to remove all formats before copying from a Excel spreadsheet. This is because the clipboard always copies displayed values and disregards underlying values. This behavior leads to incorrect data type or loss of precision, which may produce unintended results if not carefully inspected. For instance,
 
     | Underlying Value | Displayed Value |
     | :---------- | :------ |
