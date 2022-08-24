@@ -36,7 +36,7 @@ This tools offers the following capilities:
 
 
 ## Requirements
-This python tool is designed to run with minimal dependencies. Neverthelsess, the pre-installation of a few standard libraries is required.
+This tool is designed to run with minimal dependencies. Neverthelsess, a few standard libraries is required to be pre-installed.
 1. Python version 3.8
 2. Pandas library
 3. NumPy library
